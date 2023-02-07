@@ -1,0 +1,905 @@
+fileFormatVersion: 2
+guid: 99477a6b81683b648974d2ef6f113c5a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1915
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82da666823d243f4095437c8ee7c8433
+      internalID: -539624940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1900
+        width: 128
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3cb2ae9f5a5fc4e8095a0ca0ce9dfd
+      internalID: -320768305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1908
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1daecd89d63e4b4eb82fa84f839eadb
+      internalID: 1565628739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_5
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1878
+        width: 164
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952baaf6911e1bc428dc97f2e18e904d
+      internalID: 1792927240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_6
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1904
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20463aeddca0c6347a35781a27977658
+      internalID: 953136174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1732
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2ffa7150f6f6e4a9d090e595b05f09
+      internalID: 888168487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1732
+        width: 84
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc924a7f14b8943ae94ce053c756ca
+      internalID: 516701479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_9
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1699
+        width: 157
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93169a833a1961348bd3a69487980527
+      internalID: -1700702906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_11
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1708
+        width: 136
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abbb203ab721884eb94fc5362f1b61b
+      internalID: -777482639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_12
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1711
+        width: 130
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795076727b9db45458609392199a27ff
+      internalID: -1019801020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1503
+        width: 180
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c92441a422936648a5330327b091af4
+      internalID: -1083491130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1531
+        width: 132
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121f1f6703ba5441ac367d9dc470b5e
+      internalID: -664847308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ad5a6f99b0a9641a3198ee2de65174
+      internalID: -1633935316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_17
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1540
+        width: 128
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af49f80e4697271499e5f1ab2f43fda1
+      internalID: -1931139607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_18
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1530
+        width: 77
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266644094786b504aaf95dceadb50fa6
+      internalID: 2042378294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_20
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1363
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32176bd671f894ba8d21ef00893702
+      internalID: 1013461502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 1364
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45366273ab4e26439a038cdc616c0fb
+      internalID: 1133799281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1353
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ad4c97712aa7b4b9f01abca5c6b3f2
+      internalID: -922118982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_26
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1352
+        width: 121
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f25520aa4e0af4793c0e71682ad571
+      internalID: -2019775443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_27
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1372
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcb3fa190e56a14ca55f1447d286dd3
+      internalID: -1334008559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1190
+        width: 104
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f0f7e88050daf4ea1654bd9e26f512
+      internalID: -913005546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_29
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1197
+        width: 84
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459a1ed956b0bd74da22087064f570a4
+      internalID: 1670774982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_31
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1156
+        width: 168
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c740a93590410ba4eb19bcdfcc3d20cb
+      internalID: 1171679743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_32
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1178
+        width: 120
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f93370193475c42bbd076b02e5ee13
+      internalID: -1205952622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_34
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1170
+        width: 130
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cf5bf9d870ec14e8087c3d8c91ffba
+      internalID: 994823647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_35
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1233
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fce3073f446c374ea2466bf7e4540af
+      internalID: 656851818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_36
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1166
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d486a0f6839d19d4b841b436fc82d53f
+      internalID: -713916975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_37
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1107
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c7f79e5cf783646b648d2dab4fe1fd
+      internalID: -1298056385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1006
+        width: 135
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d971b6d616d5040b1e99639d89cfcd
+      internalID: 551924428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_39
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 984
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3389765a91e24194c879369fd5cdc7f4
+      internalID: 1114844847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_40
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 996
+        width: 166
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c79da6c05a72e46b896af0458876f1
+      internalID: 12413062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1016
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1a2981f269a1743a0f4b51c87dd0aa
+      internalID: 467921291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_42
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1012
+        width: 99
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76db4e05a5912744cae3dae297097edc
+      internalID: -956874828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cannon_ui_waifu2x_scale4x_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1002
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db90953dfd3a2064d9b7c77748da2499
+      internalID: -1028208781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      cannon_ui_waifu2x_scale4x_12: -1019801020
+      cannon_ui_waifu2x_scale4x_26: -2019775443
+      cannon_ui_waifu2x_scale4x_36: -713916975
+      cannon_ui_waifu2x_scale4x_38: 551924428
+      cannon_ui_waifu2x_scale4x_17: -1931139607
+      cannon_ui_waifu2x_scale4x_9: -1700702906
+      cannon_ui_waifu2x_scale4x_18: 2042378294
+      cannon_ui_waifu2x_scale4x_28: -913005546
+      cannon_ui_waifu2x_scale4x_5: 1792927240
+      cannon_ui_waifu2x_scale4x_16: -1633935316
+      cannon_ui_waifu2x_scale4x_24: -922118982
+      cannon_ui_waifu2x_scale4x_7: 888168487
+      cannon_ui_waifu2x_scale4x_15: -664847308
+      cannon_ui_waifu2x_scale4x_3: 1565628739
+      cannon_ui_waifu2x_scale4x_40: 12413062
+      cannon_ui_waifu2x_scale4x_27: -1334008559
+      cannon_ui_waifu2x_scale4x_0: -539624940
+      cannon_ui_waifu2x_scale4x_23: 369411211
+      cannon_ui_waifu2x_scale4x_31: 1171679743
+      cannon_ui_waifu2x_scale4x_41: 467921291
+      cannon_ui_waifu2x_scale4x_30: -1440260011
+      cannon_ui_waifu2x_scale4x_25: -387575842
+      cannon_ui_waifu2x_scale4x_14: -1083491130
+      cannon_ui_waifu2x_scale4x_32: -1205952622
+      cannon_ui_waifu2x_scale4x_20: 1013461502
+      cannon_ui_waifu2x_scale4x_2: -320768305
+      cannon_ui_waifu2x_scale4x_19: 672072487
+      cannon_ui_waifu2x_scale4x_29: 1670774982
+      cannon_ui_waifu2x_scale4x_37: -1298056385
+      cannon_ui_waifu2x_scale4x_10: -1169429763
+      cannon_ui_waifu2x_scale4x_35: 656851818
+      cannon_ui_waifu2x_scale4x_1: 2120477962
+      cannon_ui_waifu2x_scale4x_43: -1028208781
+      cannon_ui_waifu2x_scale4x_6: 953136174
+      cannon_ui_waifu2x_scale4x_8: 516701479
+      cannon_ui_waifu2x_scale4x_22: 1133799281
+      cannon_ui_waifu2x_scale4x_42: -956874828
+      cannon_ui_waifu2x_scale4x_13: 1610279541
+      cannon_ui_waifu2x_scale4x_4: 1618366297
+      cannon_ui_waifu2x_scale4x_34: 994823647
+      cannon_ui_waifu2x_scale4x_11: -777482639
+      cannon_ui_waifu2x_scale4x_33: -1456504912
+      cannon_ui_waifu2x_scale4x_39: 1114844847
+      cannon_ui_waifu2x_scale4x_21: 821572994
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
