@@ -7,6 +7,15 @@ public class GameManager : MonoBehaviour
 
     public static GameManager instance ;
     public int Play_Gold = 0;
+    public int Play_Point = 0;
+    public int Play_Lv = 0;
+    public int Play_count = 2;
+    public int Play_Life = 8;
+    public int cake_count = 8;
+    public int Ant_Respawner = 0;
+
+    public int Lv_Per_Ant = 20;
+   
 
 
     void Awake()

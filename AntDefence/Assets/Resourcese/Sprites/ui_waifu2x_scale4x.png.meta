@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4636df4440f561447a572a87a805d6fe
+guid: 2fdb9a4f3d873d14ca47ad768e664c6f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -134,7 +134,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 820
-        width: 400
+        width: 200
         height: 204
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39b7683d8798a7746bf6bbca7aad388d
-      internalID: 751986390
+      spriteID: a86d9762f0891f645aa15a9691b88326
+      internalID: 207097861
       vertices: []
       indices: 
       edges: []
@@ -164,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86de61ec67f7939439f40d916e1b9099
-      internalID: 828297047
+      spriteID: 8a6795b2c67870449ab3d1b690de8ea3
+      internalID: 1450266256
       vertices: []
       indices: 
       edges: []
@@ -185,8 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d36a324f67ed5804d8506900d77b9ef9
-      internalID: 120847147
+      spriteID: 9f31a610183d4dd4ea18565a54bb7785
+      internalID: 141921271
       vertices: []
       indices: 
       edges: []
@@ -206,8 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92138e5142cea1a4ba58cf0fd1ae2547
-      internalID: 883698883
+      spriteID: 67ec50445d164864fa991474aa43f717
+      internalID: 1963835050
       vertices: []
       indices: 
       edges: []
@@ -227,8 +227,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ff9c409d6445fb448426b4a0d50bcde
-      internalID: -230098318
+      spriteID: a4b88656f86e32a44aa117d729cdf37e
+      internalID: 1752045947
       vertices: []
       indices: 
       edges: []
@@ -248,8 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 837de697d2cb0a149b1911dc6dcf6746
-      internalID: -280621954
+      spriteID: 3cc5296b088698b4e87ca8d0b5af91cb
+      internalID: 2005277162
       vertices: []
       indices: 
       edges: []
@@ -269,8 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb959147c4245c945bf85b4d5f1d11e3
-      internalID: 153645903
+      spriteID: 9ae2a0bfddb114748b725a6ca7aadb72
+      internalID: 678131498
       vertices: []
       indices: 
       edges: []
@@ -290,8 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfadc0b244b45de4db3a0e40200b8e53
-      internalID: 1870956568
+      spriteID: 1b458b60fbaf9a645a4da05a7d1506e6
+      internalID: 1129349412
       vertices: []
       indices: 
       edges: []
@@ -311,8 +311,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ace645b8209cbb46aee95bb88385a94
-      internalID: -1656414592
+      spriteID: 90f56b78d5f05514b8b1dc709867cb3a
+      internalID: -1432000978
       vertices: []
       indices: 
       edges: []
@@ -322,9 +322,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 424
+        y: 408
         width: 109
-        height: 120
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +332,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12c74eaa910079643acf6971446ad426
-      internalID: 1171757983
+      spriteID: 5f75ad29d213ab64d977ec8b7f20d672
+      internalID: 912875402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ui_waifu2x_scale4x_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 344
+        width: 144
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d22129d21edce4fadba9ed9667b907
+      internalID: -1918817567
       vertices: []
       indices: 
       edges: []
@@ -353,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07dd1dc4d08b98b419b9c534ebcb456d
-      internalID: 752860758
+      spriteID: a9ff72ebc5cb7ef47a9134dd68ca7f5c
+      internalID: 483020891
       vertices: []
       indices: 
       edges: []
@@ -374,8 +395,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d6a34a2e23c786418eb515fe6707b47
-      internalID: -1609220631
+      spriteID: e26997455f34be64c85d5387e80fdf80
+      internalID: -787195967
       vertices: []
       indices: 
       edges: []
@@ -395,29 +416,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2790b7b0dfd132c42ac7f2fd6e9ef778
-      internalID: -875663437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_waifu2x_scale4x_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 343
-        width: 149
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86ad7479947a2e14fa9b6329ce9f0af4
-      internalID: 273103190
+      spriteID: 5e906891ef98bef45a8d2172bd4d239b
+      internalID: -346466267
       vertices: []
       indices: 
       edges: []
@@ -433,21 +433,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui_waifu2x_scale4x_7: 1870956568
-      ui_waifu2x_scale4x_3: 883698883
-      ui_waifu2x_scale4x_2: 120847147
-      ui_waifu2x_scale4x_4: -230098318
-      ui_waifu2x_scale4x_6: 153645903
-      ui_waifu2x_scale4x_14: 273103190
-      ui_waifu2x_scale4x_9: 1171757983
-      ui_waifu2x_scale4x_13: -875663437
-      ui_waifu2x_scale4x_12: -1609220631
-      ui_waifu2x_scale4x_5: -280621954
-      ui_waifu2x_scale4x_0: 751986390
-      ui_waifu2x_scale4x_8: -1656414592
-      ui_waifu2x_scale4x_10: 399722759
-      ui_waifu2x_scale4x_1: 828297047
-      ui_waifu2x_scale4x_11: 752860758
+      ui_waifu2x_scale4x_7: 1129349412
+      ui_waifu2x_scale4x_3: 1963835050
+      ui_waifu2x_scale4x_2: 141921271
+      ui_waifu2x_scale4x_4: 1752045947
+      ui_waifu2x_scale4x_6: 678131498
+      ui_waifu2x_scale4x_9: 912875402
+      ui_waifu2x_scale4x_13: -346466267
+      ui_waifu2x_scale4x_12: -787195967
+      ui_waifu2x_scale4x_5: 2005277162
+      ui_waifu2x_scale4x_0: 207097861
+      ui_waifu2x_scale4x_8: -1432000978
+      ui_waifu2x_scale4x_10: -1918817567
+      ui_waifu2x_scale4x_1: 1450266256
+      ui_waifu2x_scale4x_11: 483020891
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

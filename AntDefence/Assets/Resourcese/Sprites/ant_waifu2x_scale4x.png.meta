@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f42aac263f4366947965eb02113cca11
+guid: 492e688a49a7056498ceea32271f09ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cake_waifu2x_scale4x_0
+      name: ant_waifu2x_scale4x_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 275
-        width: 234
-        height: 233
+        x: 12
+        y: 400
+        width: 104
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff68e53dda8ab244a0b6b3062475529
-      internalID: -283951747
+      spriteID: 04b06119c9c31ad42b2f14feffa259c6
+      internalID: 122286329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cake_waifu2x_scale4x_1
+      name: ant_waifu2x_scale4x_1
       rect:
         serializedVersion: 2
-        x: 243
-        y: 272
-        width: 233
-        height: 231
+        x: 140
+        y: 392
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 388e597b7279333439f74b3ec8b64a40
-      internalID: -1989846661
+      spriteID: a6cb92e487544374fa284aef9660c239
+      internalID: -1561239248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cake_waifu2x_scale4x_2
+      name: ant_waifu2x_scale4x_9
       rect:
         serializedVersion: 2
-        x: 485
-        y: 273
-        width: 231
-        height: 230
+        x: 12
+        y: 296
+        width: 12
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa533bba87f620f42a951564f4bb3eab
-      internalID: -634967658
+      spriteID: d4dfb9416b2685c4c973319265821492
+      internalID: 568366805
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cake_waifu2x_scale4x_3
+      name: ant_waifu2x_scale4x_10
       rect:
         serializedVersion: 2
-        x: 760
-        y: 273
-        width: 196
-        height: 230
+        x: 32
+        y: 296
+        width: 4
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3449043c71321949a67e2a7e9edfef6
-      internalID: 438439996
+      spriteID: 9161889959fc46244b53549fd4055303
+      internalID: 119895065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cake_waifu2x_scale4x_4
+      name: ant_waifu2x_scale4x_11
       rect:
         serializedVersion: 2
-        x: 117
-        y: 36
+        x: 32
+        y: 176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c4b464b7b9471429a06dbb10385ce7
+      internalID: -2005448345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ant_waifu2x_scale4x_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36d09b975046bc479a474af601665b4
+      internalID: 1120398241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ant_waifu2x_scale4x_13
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 393
         width: 120
-        height: 231
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,71 +269,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c392f22017ac424d99a4fd5eeb1aee6
-      internalID: -597609489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cake_waifu2x_scale4x_5
-      rect:
-        serializedVersion: 2
-        x: 357
-        y: 73
-        width: 120
-        height: 194
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d2338250363e9844ac7ee6097a49640
-      internalID: -1439899443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cake_waifu2x_scale4x_6
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 148
-        width: 119
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: beb7ac5346986af4b999bfa91dfa3d7d
-      internalID: -1699143595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cake_waifu2x_scale4x_7
-      rect:
-        serializedVersion: 2
-        x: 839
-        y: 149
-        width: 85
-        height: 117
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de5040d2f10f1e243b81b06e5b1a6cea
-      internalID: -125004676
+      spriteID: b48e603d9a039804694eb379350efef4
+      internalID: 1656883851
       vertices: []
       indices: 
       edges: []
@@ -307,14 +286,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cake_waifu2x_scale4x_5: -1439899443
-      cake_waifu2x_scale4x_6: -1699143595
-      cake_waifu2x_scale4x_2: -634967658
-      cake_waifu2x_scale4x_1: -1989846661
-      cake_waifu2x_scale4x_7: -125004676
-      cake_waifu2x_scale4x_3: 438439996
-      cake_waifu2x_scale4x_4: -597609489
-      cake_waifu2x_scale4x_0: -283951747
+      ant_waifu2x_scale4x_10: 119895065
+      ant_waifu2x_scale4x_5: -566389020
+      ant_waifu2x_scale4x_8: 330771025
+      ant_waifu2x_scale4x_4: 865409956
+      ant_waifu2x_scale4x_6: 412451757
+      ant_waifu2x_scale4x_12: 1120398241
+      ant_waifu2x_scale4x_7: -62775038
+      ant_waifu2x_scale4x_2: -70499598
+      ant_waifu2x_scale4x_11: -2005448345
+      ant_waifu2x_scale4x_13: 1656883851
+      ant_waifu2x_scale4x_0: 122286329
+      ant_waifu2x_scale4x_1: -1561239248
+      ant_waifu2x_scale4x_3: -468522043
+      ant_waifu2x_scale4x_9: 568366805
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

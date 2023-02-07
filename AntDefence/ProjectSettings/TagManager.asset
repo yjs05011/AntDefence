@@ -3,15 +3,23 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UpperWall
+  - RightWall
+  - LeftWall
+  - UnderWall
+  - Cake
+  - Hole
+  - Canon
+  - Ant
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - backGround
   - Water
   - UI
-  - 
+  - Ant
   - 
   - 
   - 
