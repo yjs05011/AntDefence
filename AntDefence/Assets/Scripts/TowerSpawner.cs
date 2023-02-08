@@ -28,7 +28,7 @@ public class TowerSpawner : MonoBehaviour
             for (int i = 0; i < 100; i++)
             {
                 GameObject Objs = Instantiate(Tower);
-                Objs.transform.SetParent(gameObject.transform);
+                Objs.transform.SetParent(gameObject.transform,false);
                 Objs.SetActive(false);
                 Tower_Number.Push(Objs);
 

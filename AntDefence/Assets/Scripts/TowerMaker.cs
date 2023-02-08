@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class TowerMaker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
 {
-  public Canon Tower = null;
+    public Canon Tower = null;
     public Canvas canvas = null;
     private bool isClicked = false;
     private bool tower = false;
@@ -28,11 +28,15 @@ public class TowerMaker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
     }
     public void OnPointerDown(PointerEventData eventData)
     {
-        isClicked = true;
-        Tower = TowerSpawner.instance.Tower_Number.Pop().GetComponent<Canon>();
-        Tower.gameObject.SetActive(true);
-        Tower.transform.position = transform.position;
-        Debug.Log($"Position : {transform.position}");
+        if(GameManager.instance.Play_Gold>=50){
+            GameManager.instance.Play_Gold -= 50;
+            isClicked = true;
+            Tower = TowerSpawner.instance.Tower_Number.Pop().GetComponent<Canon>();
+            Tower.gameObject.SetActive(true);
+            Tower.transform.position = transform.position;
+        }
+       
+        // Debug.Log($"Position : {transform.position}");
 
 
     }
@@ -47,21 +51,27 @@ public class TowerMaker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
         Vector2 mousePositionDelta = eventData.delta / canvas.scaleFactor;
         Tower.rectTransform.anchoredPosition += mousePositionDelta;
 
-        Debug.Log($"Tower Position:{Tower.rectTransform.anchoredPosition}");
+        // Debug.Log($"Tower Position:{Tower.rectTransform.anchoredPosition}");
 
 
     }
     public void OnPointerUp(PointerEventData eventData)
     {
-        if(Tower.rectTransform.anchoredPosition.y>-220f){
-            isClicked = false;
+
+        if (isClicked)
+        {
+            if (Tower.rectTransform.anchoredPosition.y > -220f)
+            {
+                isClicked = false;
+            }
+            else
+            {
+                isClicked = false;
+                Tower.gameObject.SetActive(false);
+                TowerSpawner.instance.Tower_Number.Push(Tower.gameObject);
+            }
         }
-        else{
-            isClicked = false;
-            Tower.gameObject.SetActive(false);
-            TowerSpawner.instance.Tower_Number.Push(Tower.gameObject);
-        }
-        
+
     }
     
    

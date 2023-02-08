@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance ;
-    public int Play_Gold = 0;
+    public int Play_Gold = 300;
     public int Play_Point = 0;
     public int Play_Lv = 0;
     public int Play_count = 2;
@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public int Ant_Respawner = 0;
 
     public int Lv_Per_Ant = 20;
-   
+    public bool ClickedChk = false;
 
 
     void Awake()
@@ -43,6 +43,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Lv_Per_Ant ==0){
+            Play_Lv ++;
+            Lv_Per_Ant =20;
+        }
     }
 }

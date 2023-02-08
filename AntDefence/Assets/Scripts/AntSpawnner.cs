@@ -10,7 +10,7 @@ public class AntSpawnner : MonoBehaviour
     public static AntSpawnner instance = null;
     private bool chk = false;
     private int poolingCount = 0;
-    private int count = 0;
+    private int count = 4;
     void Awake(){
         if (null == instance)
         {

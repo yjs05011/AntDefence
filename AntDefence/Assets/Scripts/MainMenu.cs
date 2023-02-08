@@ -19,4 +19,7 @@ public class MainMenu : MonoBehaviour
     public void PlayButton(){
         SceneManager.LoadScene("Play");
     }
+    public void QuitButton(){
+        Application.Quit();
+    }
 }

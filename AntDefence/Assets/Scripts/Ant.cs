@@ -17,7 +17,7 @@ public class Ant : MonoBehaviour
 
     private bool chk = false;
 
-    private bool coroutineChk = false;
+    public bool coroutineChk = false;
     private float randomX= 0;
     private float randomY= 0f;
     private bool isFake = false;
@@ -103,48 +103,59 @@ public class Ant : MonoBehaviour
             }
         }
     }
-    private void Die(){
+    private void Die()
+    {
         if (has_Cake)
-            {
-                has_Cake = false;
+        {
+            has_Cake = false;
 
-            }
-            else
-            {
-                transform.position = transform.parent.position;
-                GameManager.instance.Ant_Respawner--;
-                Ant_Hp = 20 + GameManager.instance.Play_Lv * 3;
-                gameObject.SetActive(false);
-                AntSpawnner.instance.Ant_Number.Push(gameObject);
-            }
+        }
+
+        transform.position = transform.parent.position;
+        GameManager.instance.Ant_Respawner--;
+
+        gameObject.SetActive(false);
+        Ant_Hp = 20 + GameManager.instance.Play_Lv * 3;
+        Max_Hp = 20 + GameManager.instance.Play_Lv * 3;
+        isFake = false;
+        coroutineChk = false;
+        chk = false;
+        randomX = 0;
+        has_Cake = false;
+        randomY = 0;
+        AntSpawnner.instance.Ant_Number.Push(gameObject);
+        GameManager.instance.Play_Gold  += 10 + 10*GameManager.instance.Play_Lv;
+        GameManager.instance.Play_Point  += 30 + 20*GameManager.instance.Play_Lv;
+        GameManager.instance.Lv_Per_Ant --;
+
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.transform.tag == "UpperWall")
         {
             ant_rigid.velocity = new Vector2(0, 0);
-            Debug.Log("is Tag");
+            // Debug.Log("is Tag");
         }
         if (other.transform.tag == "UnderWall")
         {
             ant_rigid.velocity = new Vector2(0, 0);
-            Debug.Log("is Tag");
+            // Debug.Log("is Tag");
         }
         if (other.transform.tag == "LeftWall")
         {
             ant_rigid.velocity = new Vector2(0, 0);
-            Debug.Log("is Tag");
+            // Debug.Log("is Tag");
         }
         if (other.transform.tag == "RightWall")
         {
             ant_rigid.velocity = new Vector2(0, 0);
-            Debug.Log("is Tag");
+            // Debug.Log("is Tag");
         }
         if (other.transform.tag == "Cake")
         {
             if (GameManager.instance.cake_count > 0)
             {
-                Debug.Log("Cake");
+                // Debug.Log("Cake");
                 has_Cake = true;
                 GameManager.instance.cake_count--;
             }
@@ -156,9 +167,16 @@ public class Ant : MonoBehaviour
         {
             if (has_Cake)
             {
-                Debug.Log("return");
+                // Debug.Log("return");
                 GameManager.instance.Play_Life--;
                 gameObject.SetActive(false);
+                Ant_Hp = 20 ;
+                Max_Hp = 20 ;
+                isFake = false;
+                coroutineChk = false;
+                chk =false;
+                randomX= 0;
+                randomY= 0;
                 has_Cake = false;
                 GameManager.instance.Ant_Respawner--;
                 AntSpawnner.instance.Ant_Number.Push(gameObject);

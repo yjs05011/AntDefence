@@ -24,7 +24,7 @@ public class BulletSpawner : MonoBehaviour
         Bullet_Number = new Stack<GameObject>();
         for(int i = 0; i<TotalBullet; i++){
             GameObject objs = Instantiate(bullet);
-            objs.transform.SetParent(gameObject.transform);
+            objs.transform.SetParent(gameObject.transform, false);
             objs.SetActive(false);
             Bullet_Number.Push(objs);
         }
