@@ -5,9 +5,10 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 
-public class TowerMaker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IDragHandler
-{
-  public Canon Tower = null;
+public class TowerMaker1: MonoBehaviour,IDragHandler,IPointerDownHandler{
+
+
+    public Canon Tower = null;
     public Canvas canvas = null;
     private bool isClicked = false;
     private bool tower = false;
@@ -42,26 +43,19 @@ public class TowerMaker : MonoBehaviour, IPointerDownHandler, IPointerUpHandler,
             return;
         }
        
+           
+        tower =false;
             
         
         Vector2 mousePositionDelta = eventData.delta / canvas.scaleFactor;
         Tower.rectTransform.anchoredPosition += mousePositionDelta;
 
-        Debug.Log($"Tower Position:{Tower.rectTransform.anchoredPosition}");
-
 
     }
     public void OnPointerUp(PointerEventData eventData)
     {
-        if(Tower.rectTransform.anchoredPosition.y>-220f){
-            isClicked = false;
-        }
-        else{
-            isClicked = false;
-            Tower.gameObject.SetActive(false);
-            TowerSpawner.instance.Tower_Number.Push(Tower.gameObject);
-        }
-        
+
+        isClicked = false;
     }
     
    
