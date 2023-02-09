@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class Ant : MonoBehaviour
 {
-    public float Ant_Hp = 20;
-    public float Max_Hp = 20;
+    public float Ant_Hp = 20 + GameManager.instance.Play_Lv * 3;
+    public float Max_Hp = 20 + GameManager.instance.Play_Lv * 3;
     private bool has_Cake = false;
 
     private BoxCollider2D ant_hitBox = null;
@@ -14,37 +14,70 @@ public class Ant : MonoBehaviour
     private Image hp_bar = null;
     private Rigidbody2D ant_rigid = null;
     public GameObject cake = null;
-
+    private Animator Ant_anime = null;
     private bool chk = false;
-
+    private bool antDie = false;
     public bool coroutineChk = false;
     private float randomX= 0;
     private float randomY= 0f;
     private bool isFake = false;
+    private bool isDie =false;
+    private Image hp_bar_img = default; 
 
     // Start is called before the first frame update
     void Start()
     {
+        hp_bar_img = transform.GetChild(1).gameObject.GetComponent<Image>();
+        Ant_anime = transform.GetChild(0).gameObject.GetComponent<Animator>();
         ant_hitBox = gameObject.GetComponent<BoxCollider2D>();
         hp_bar = transform.GetChild(2).gameObject.GetComponent<Image>();
         ant_rigid = gameObject.GetComponent<Rigidbody2D>();
 
     }
-
+    private void OnEnable() {
+        isFake = false;
+        coroutineChk = false;
+        chk = false;
+        randomX = 0;
+        randomY = 0;
+        Ant_Hp = 20 + GameManager.instance.Play_Lv * 3;
+        Max_Hp = 20 + GameManager.instance.Play_Lv * 3;
+        isDie = false;
+        antDie = false;
+        gameObject.tag = "Ant";
+    }
     // Update is called once per frame
     void Update()
     {
-        hp_bar.fillAmount = Mathf.Lerp(hp_bar.fillAmount, Ant_Hp / Max_Hp, Time.deltaTime);
         cake.SetActive(has_Cake);
-        Move();
-
-
-
+        if(!antDie){
+            hp_bar.fillAmount = Mathf.Lerp(hp_bar.fillAmount, Ant_Hp / Max_Hp, Time.deltaTime);
+            Move();
+        }
         if (Ant_Hp <= 0)
         {
-            Die();
+            
+            antDie=true;
+           
+            gameObject.tag = "Untagged";
         }
+        if(antDie){
+           
+           
+            if(!isDie){
+                isDie =true;
+                
+                hp_bar.gameObject.SetActive(false);
+                
+                hp_bar_img.gameObject.SetActive(false);
+                
+                Die();
+                
+            }
+            
 
+           
+        }
 
     }
 
@@ -108,25 +141,21 @@ public class Ant : MonoBehaviour
         if (has_Cake)
         {
             has_Cake = false;
+            GameManager.instance.cake_count ++;
 
         }
+        Ant_anime.SetBool("isDie", antDie);
+          GameManager.instance.Play_Gold += 10 + 10 * GameManager.instance.Play_Lv;
+        GameManager.instance.Play_Point += 30 + 20 * GameManager.instance.Play_Lv;
+        GameManager.instance.Lv_Per_Ant--;
+        
+        StartCoroutine(DieAni());
 
-        transform.position = transform.parent.position;
-        GameManager.instance.Ant_Respawner--;
 
-        gameObject.SetActive(false);
-        Ant_Hp = 20 + GameManager.instance.Play_Lv * 3;
-        Max_Hp = 20 + GameManager.instance.Play_Lv * 3;
-        isFake = false;
-        coroutineChk = false;
-        chk = false;
-        randomX = 0;
-        has_Cake = false;
-        randomY = 0;
-        AntSpawnner.instance.Ant_Number.Push(gameObject);
-        GameManager.instance.Play_Gold  += 10 + 10*GameManager.instance.Play_Lv;
-        GameManager.instance.Play_Point  += 30 + 20*GameManager.instance.Play_Lv;
-        GameManager.instance.Lv_Per_Ant --;
+       
+
+
+
 
     }
     private void OnTriggerEnter2D(Collider2D other)
@@ -153,7 +182,7 @@ public class Ant : MonoBehaviour
         }
         if (other.transform.tag == "Cake")
         {
-            if (GameManager.instance.cake_count > 0)
+            if (GameManager.instance.cake_count > 0 && !has_Cake)
             {
                 // Debug.Log("Cake");
                 has_Cake = true;
@@ -214,5 +243,17 @@ public class Ant : MonoBehaviour
         transform.rotation = rotation;
     }
 
+    private IEnumerator DieAni(){
+        Debug.Log("Die");
+        yield return new WaitForSeconds(3f);
+        transform.position = transform.parent.position;
+        GameManager.instance.Ant_Respawner--;
 
+        gameObject.SetActive(false);
+       
+        
+
+        AntSpawnner.instance.Ant_Number.Push(gameObject);
+
+    }
 }

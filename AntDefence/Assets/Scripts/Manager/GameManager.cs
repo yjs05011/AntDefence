@@ -6,15 +6,16 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance ;
-    public int Play_Gold = 300;
-    public int Play_Point = 0;
-    public int Play_Lv = 0;
-    public int Play_count = 2;
-    public int Play_Life = 8;
-    public int cake_count = 8;
-    public int Ant_Respawner = 0;
-
-    public int Lv_Per_Ant = 20;
+    public int Play_Gold ;
+    public int Play_Point;
+    public int Play_Lv ;
+    public int Play_count;
+    public int Play_Life;
+    public int cake_count;
+    public int Ant_Respawner;
+    public int canon_total;
+    public int canon_price; 
+    public int Lv_Per_Ant;
     public bool ClickedChk = false;
 
 
@@ -45,7 +46,7 @@ public class GameManager : MonoBehaviour
     {
         if(Lv_Per_Ant ==0){
             Play_Lv ++;
-            Lv_Per_Ant =20;
+            Lv_Per_Ant =12;
         }
     }
 }

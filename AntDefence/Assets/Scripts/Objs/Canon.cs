@@ -23,9 +23,10 @@ public class Canon : MonoBehaviour
     public GameObject bullet =null;
     public Vector2 canonPosition =default;
     public Image canonArrow = default;
-    public float distance = 0;
+    public Sprite[] canonSprite = default;
     private bool nearEnemy = false;
     private bool routinChk = true;
+    public bool isMount = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,21 +41,27 @@ public class Canon : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-
-        // Debug.Log($"Ui : {upgradeUi.transform.position}");
-        Direction(canonArrow,canonPosition.x,canonPosition.y);
-        if(nearEnemy){
-            if(routinChk)
+        if (isMount)
+        {
+            Direction(canonArrow, canonPosition.x, canonPosition.y);
+            if (nearEnemy)
             {
-                Debug.Log(nearEnemy);
-                routinChk = false;
-                StartCoroutine(Shooting());
+                if (routinChk)
+                {
+                    Debug.Log(nearEnemy);
+                    routinChk = false;
+                    StartCoroutine(Shooting());
+                }
+            }
+            if (GameManager.instance.ClickedChk)
+            {
+                upgradeUi.SetActive(false);
+                canonRangeImg.gameObject.SetActive(false);
             }
         }
-        if(GameManager.instance.ClickedChk){
-            upgradeUi.SetActive(false);
-        }
+
+        // Debug.Log($"Ui : {upgradeUi.transform.position}");
+       
     }
 
     public void OnTriggerStay2D(Collider2D other) {
@@ -66,11 +73,17 @@ public class Canon : MonoBehaviour
 
     }
 
-    public void UpgradeButton()
+    public void UpgradeButtonDown()
     {
+        GameManager.instance.ClickedChk =true;
         
+    }
+    public void UpgradeButtonUp(){
+        GameManager.instance.ClickedChk =false;
         Debug.Log("ok");
         SetActiveUi(upgradeUi.activeSelf);
+        canonRangeImg.gameObject.SetActive(true);
+        
 
     }
      void Direction(Image img ,float x, float y)
@@ -100,15 +113,19 @@ public class Canon : MonoBehaviour
        
     }
     public void SetActiveUi(bool SetActive){
+        
          if (SetActive)
         {
             upgradeUi.SetActive(false);
         }
         else
         {
-            isClicked = true;
+            
+            
+            
             upgradeUi.SetActive(true);
             upgradeUi.transform.position = new Vector2(-0.5f, -3.94f);
+            
         }
     }
 }

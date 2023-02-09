@@ -23,11 +23,15 @@ public class Pause : MonoBehaviour
         Time.timeScale=0f;
     }
     public void Restart(){
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Play");
         Time.timeScale=1f;
     }
     public void ClosePause(){
         pauseUi.SetActive(false);
+        Time.timeScale=1f;
+    }
+    public void GoMain(){
+        SceneManager.LoadScene("Main");
         Time.timeScale=1f;
     }
 }

@@ -14,13 +14,13 @@ summury:
 solve: 
     - 개미가 이상하게 움직이게 된 이유는 velocity를 사용하여 움직임을 제어했기때문으로 판단, 이를 movetoward를 이용하여 바꿔 머리와 가는 방향이 일치하도록 수정하였다(2023-02-08)
     - 포탑 설치가 이상한 이유는 포탑의 로컬 포지션과 월드포지션을 혼동해서 사용했기 떄문이라 판단, 이를 월드 포지션으로 바꾼후 앵커 포지션으로 다시 바꿔 해결하였다(2023-02-08)
-    - 개미가 사라지고 다시 나타났을때 의도한 바로 움직이지 않은 문제는 조건식이 잘못 되어있었기 때문에 사라질때 모든 상태를 초기화 해 해결였다(2023-02-08)
+    - 개미가 사라지고 다시 나타났을때 의도한 바로 움직이지 않은 문제는 조건식이 잘못 되어있었기 때문에 사라질때 모든 상태를 초기화 해 해결하였다(2023-02-08)
     
 
 AntDefence // 0.0.1 ver // 2023-02-07 // "Start"
 AntDefence // 0.1.0 ver // 2023-02-07 // "Make main, add sprites, make ant and canon"
 AntDefence // 0.1.1 ver // 2023-02-08 // "Update Canon, change ant Move, Debug"
 AntDefence // 1.0.0 ver // 2023-02-08 // "make prototype"
-
+AntDefence // 1.0.1 ver // 2023-02-09 // "make UpgradeSystem, Debug"
 
 

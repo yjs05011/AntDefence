@@ -40,22 +40,16 @@ public class UpgradeUi : MonoBehaviour
             ButtonImg[1].sprite = QuickCanonList[0];
             ButtonImg[2].sprite = DownGradeList[0];
         }
-        if(!isClicked){
+        if(GameManager.instance.ClickedChk){
             gameObject.SetActive(false);
-            isCheck = true;
-            isClicked =true;
         }
-        if(Input.GetMouseButtonDown(0)){
-            if(!isCheck){
-                 isClicked =false;
-            }
+
            
-        }
+        
 
     }
     public void HeavyCanon()
     {
-        isCheck =true;
         if (canon.First_Upgrade)
         {
             // Debug.Log("not yet");
@@ -66,6 +60,7 @@ public class UpgradeUi : MonoBehaviour
             {
                 canon.First_Upgrade = true;
                 canon.damage *= 2;
+                canon.canonArrow.sprite = canon.canonSprite[1]; 
                 Debug.Log(canon.damage);
             }
 
@@ -76,7 +71,6 @@ public class UpgradeUi : MonoBehaviour
 
     public void QuickCanon()
     {
-        isCheck =true;
         if (canon.First_Upgrade)
         {
             // Debug.Log("not yet");
@@ -87,6 +81,7 @@ public class UpgradeUi : MonoBehaviour
             {
                 canon.First_Upgrade = true;
                 canon.shotSpeed *= 2;
+                canon.canonArrow.sprite = canon.canonSprite[2]; 
                 Debug.Log(canon.shotSpeed);
             }
 
@@ -96,7 +91,6 @@ public class UpgradeUi : MonoBehaviour
 
     public void DownGrade()
     {
-        isCheck =true;
         if (canon.First_Upgrade)
         {
             // Debug.Log("not yet");
@@ -104,7 +98,10 @@ public class UpgradeUi : MonoBehaviour
         else
         {
             canon.gameObject.SetActive(false);
-
+            canon.damage =5;
+            canon.shotSpeed =4f;
+            canon.isClicked =false;
+            canon.canonArrow.sprite = canon.canonSprite[0];
         }
     }
     public void Exit()
